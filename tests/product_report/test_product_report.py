@@ -12,10 +12,8 @@ def test_relatorio_produto():
         "local seco, sem expor ao sol",
     )
 
-    response_product = """O produto calendar
-                        fabricado em 12-02-2002
-                        por register LTDA com validade
-                        até 29-12-2999
-                        precisa ser armazenado local seco, sem expor ao sol."""
+    response_product = "O produto calendar fabricado em 12-02-2002 por register \
+LTDA com validade até 29-12-2999 precisa ser armazenado local seco, sem \
+expor ao sol."
 
     assert product.__repr__() == response_product
