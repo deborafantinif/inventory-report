@@ -3,7 +3,6 @@ from datetime import date
 
 
 class SimpleReport:
-    @staticmethod
     def generate(products):
         manufacturing_date = [
             product["data_de_fabricacao"] for product in products
